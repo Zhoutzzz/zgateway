@@ -1,0 +1,8 @@
+zgateway:
+  listenPort: 8888
+  proxyAddr:
+    - 'localhost:8088'
+    - 'localhost:8801'
+    - 'localhost:8802'
+    - 'localhost:8803'
+#  proxyAddr: ['localhost:8088', 'localhost:8801', 'localhost:8802', 'localhost:8803']

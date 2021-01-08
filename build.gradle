@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'zhoutzzz'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/google/' }
+    maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.52.Final'
+// https://mvnrepository.com/artifact/org.apache.httpcomponents/httpasyncclient
+    compile group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.1.4'
+// https://mvnrepository.com/artifact/org.jyaml/jyaml
+    compile group: 'org.jyaml', name: 'jyaml', version: '1.3'
+
+
+}
